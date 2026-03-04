@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="description" content="FREE KVS NVS EMRS Principal Vice Principal Exam Preparation by Dewangan Sir. Complete study material, PDFs, videos, MCQs - 100% Free Forever."/>
+<meta name="keywords" content="KVS Principal exam free, NVS Vice Principal preparation, EMRS Principal free notes, KVS LDCE free, Dewangan Sir, Principal exam 2025"/>
+<title>Dewangan Sir | FREE Principal & VP Exam Prep | KVS • NVS • EMRS</title>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+<style>
+  :root {
+    --gold:    #FFD700;
+    --orange:  #FF6B00;
+    --red:     #E8200A;
+    --blue:    #0A5FD6;
+    --green:   #0AAB4A;
+    --purple:  #7B10C8;
+    --dark:    #080520;
+    --darker:  #04010F;
+    --card:    #0F0A2E;
+    --text:    #E8E6FF;
+    --muted:   #9B97CC;
+  }
+  *{margin:0;padding:0;box-sizing:border-box;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--darker);
+    color:var(--text);
+    font-family:'Nunito',sans-serif;
+    overflow-x:hidden;
+  }
+
+  /* ── STARFIELD ── */
+  #stars{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0;overflow:hidden;}
+  .star{position:absolute;background:#fff;border-radius:50%;animation:twinkle var(--d,3s) infinite alternate;}
+  @keyframes twinkle{0%{opacity:.2;transform:scale(1);}100%{opacity:1;transform:scale(1.4);}}
+
+  /* ── NAV ── */
+  nav{
+    position:sticky;top:0;z-index:100;
+    background:rgba(8,5,32,.92);
+    backdrop-filter:blur(16px);
+    border-bottom:2px solid var(--gold);
+    display:flex;align-items:center;justify-content:space-between;
+    padding:.7rem 2rem;
+  }
+  .nav-logo{font-family:'Baloo 2',cursive;font-size:1.35rem;font-weight:800;color:var(--gold);letter-spacing:.5px;}
+  .nav-logo span{color:#fff;}
+  .nav-links{display:flex;gap:1.4rem;list-style:none;}
+  .nav-links a{color:var(--text);text-decoration:none;font-weight:700;font-size:.9rem;transition:.2s;}
+  .nav-links a:hover{color:var(--gold);}
+  .nav-free{background:var(--green);color:#fff!important;padding:.3rem .9rem;border-radius:20px;font-weight:800!important;}
+
+  /* ── HERO ── */
+  .hero{
+    position:relative;z-index:1;
+    min-height:92vh;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    text-align:center;padding:4rem 1.5rem 3rem;
+    background:radial-gradient(ellipse at 50% 0%,rgba(123,16,200,.35) 0%,transparent 65%),
+               radial-gradient(ellipse at 80% 80%,rgba(10,95,214,.25) 0%,transparent 55%);
+  }
+  .hero-badge{
+    display:inline-block;
+    background:var(--red);
+    color:#fff;font-family:'Baloo 2',cursive;font-weight:800;font-size:1rem;
+    padding:.4rem 1.4rem;border-radius:30px;letter-spacing:1px;
+    margin-bottom:1.2rem;animation:pulse 2s infinite;
+  }
+  @keyframes pulse{0%,100%{box-shadow:0 0 0 0 rgba(232,32,10,.5);}50%{box-shadow:0 0 0 12px rgba(232,32,10,0);}}
+  .hero h1{
+    font-family:'Baloo 2',cursive;font-size:clamp(2.2rem,5vw,4rem);font-weight:800;
+    line-height:1.1;margin-bottom:1rem;
+  }
+  .hero h1 .gold{color:var(--gold);}
+  .hero h1 .white{color:#fff;}
+  .hero-sub{font-size:1.15rem;color:var(--muted);max-width:640px;margin:0 auto 2rem;line-height:1.7;}
+  .hero-sub strong{color:var(--gold);}
+  .hero-btns{display:flex;gap:1rem;flex-wrap:wrap;justify-content:center;margin-bottom:2.5rem;}
+  .btn{
+    padding:.8rem 2rem;border-radius:30px;font-family:'Baloo 2',cursive;font-weight:700;font-size:1.05rem;
+    text-decoration:none;border:none;cursor:pointer;transition:.25s;display:inline-flex;align-items:center;gap:.5rem;
+  }
+  .btn-primary{background:var(--gold);color:#000;}
+  .btn-primary:hover{background:#ffea50;transform:translateY(-2px);box-shadow:0 8px 24px rgba(255,215,0,.35);}
+  .btn-outline{background:transparent;color:#fff;border:2px solid rgba(255,255,255,.4);}
+  .btn-outline:hover{border-color:var(--gold);color:var(--gold);}
+
+  .hero-stats{display:flex;gap:2.5rem;flex-wrap:wrap;justify-content:center;}
+  .stat{text-align:center;}
+  .stat-num{font-family:'Baloo 2',cursive;font-size:2rem;font-weight:800;color:var(--gold);}
+  .stat-lbl{font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px;}
+
+  /* ── SECTION ── */
+  section{position:relative;z-index:1;padding:4rem 1.5rem;}
+  .section-inner{max-width:1100px;margin:0 auto;}
+  .section-title{
+    font-family:'Baloo 2',cursive;font-size:clamp(1.6rem,3vw,2.2rem);font-weight:800;
+    color:#fff;margin-bottom:.4rem;
+  }
+  .section-title span{color:var(--gold);}
+  .section-sub{color:var(--muted);margin-bottom:2.5rem;font-size:1rem;}
+  .divider{width:60px;height:4px;background:var(--gold);border-radius:2px;margin-bottom:1rem;}
+
+  /* ── FREE BANNER ── */
+  .free-banner{
+    background:linear-gradient(135deg,var(--green),#076630);
+    border-radius:16px;padding:1.8rem 2rem;
+    display:flex;align-items:center;gap:1.5rem;flex-wrap:wrap;
+    margin-bottom:3rem;border:2px solid rgba(255,255,255,.15);
+    box-shadow:0 8px 32px rgba(10,171,74,.3);
+  }
+  .free-banner .icon{font-size:3rem;}
+  .free-banner h3{font-family:'Baloo 2',cursive;font-size:1.5rem;font-weight:800;color:#fff;margin-bottom:.3rem;}
+  .free-banner p{color:rgba(255,255,255,.85);font-size:.95rem;}
+
+  /* ── COURSE CARDS ── */
+  .courses-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.5rem;}
+  .course-card{
+    background:var(--card);border-radius:16px;padding:1.8rem;
+    border:1px solid rgba(255,255,255,.08);
+    transition:.3s;cursor:pointer;text-decoration:none;color:inherit;display:block;
+    position:relative;overflow:hidden;
+  }
+  .course-card::before{
+    content:'';position:absolute;top:0;left:0;right:0;height:4px;
+    background:var(--accent,var(--gold));
+  }
+  .course-card:hover{transform:translateY(-5px);border-color:var(--accent,var(--gold));box-shadow:0 12px 40px rgba(0,0,0,.4);}
+  .course-icon{font-size:2.2rem;margin-bottom:1rem;}
+  .course-card h3{font-family:'Baloo 2',cursive;font-size:1.2rem;font-weight:800;color:#fff;margin-bottom:.5rem;}
+  .course-card p{font-size:.88rem;color:var(--muted);line-height:1.6;margin-bottom:1rem;}
+  .course-tag{
+    display:inline-block;background:rgba(255,215,0,.12);color:var(--gold);
+    font-size:.75rem;font-weight:700;padding:.2rem .7rem;border-radius:20px;
+    border:1px solid rgba(255,215,0,.3);
+  }
+  .course-tag.free{background:rgba(10,171,74,.15);color:#4ddb85;border-color:rgba(10,171,74,.3);}
+
+  /* ── TOPICS / CONTENT TABLE ── */
+  .topics-wrap{background:var(--card);border-radius:16px;overflow:hidden;border:1px solid rgba(255,255,255,.08);}
+  .topics-header{
+    background:linear-gradient(135deg,var(--blue),var(--purple));
+    padding:1.2rem 1.8rem;display:flex;align-items:center;gap:1rem;
+  }
+  .topics-header h3{font-family:'Baloo 2',cursive;font-size:1.2rem;font-weight:800;color:#fff;}
+  .topic-row{
+    display:flex;align-items:center;padding:1rem 1.8rem;
+    border-bottom:1px solid rgba(255,255,255,.05);
+    transition:.2s;
+  }
+  .topic-row:last-child{border-bottom:none;}
+  .topic-row:hover{background:rgba(255,255,255,.04);}
+  .topic-num{
+    width:36px;height:36px;border-radius:50%;
+    background:rgba(255,215,0,.15);color:var(--gold);
+    display:flex;align-items:center;justify-content:center;
+    font-weight:800;font-size:.9rem;flex-shrink:0;margin-right:1rem;
+  }
+  .topic-info{flex:1;}
+  .topic-info h4{font-weight:700;font-size:.95rem;color:#fff;margin-bottom:.2rem;}
+  .topic-info p{font-size:.8rem;color:var(--muted);}
+  .topic-links{display:flex;gap:.5rem;flex-shrink:0;}
+  .tlink{
+    padding:.35rem .8rem;border-radius:20px;font-size:.78rem;font-weight:700;
+    text-decoration:none;transition:.2s;border:none;cursor:pointer;
+  }
+  .tlink-pdf{background:rgba(232,32,10,.15);color:#ff6b5b;border:1px solid rgba(232,32,10,.3);}
+  .tlink-pdf:hover{background:var(--red);color:#fff;}
+  .tlink-video{background:rgba(255,0,0,.12);color:#ff5555;border:1px solid rgba(255,0,0,.25);}
+  .tlink-video:hover{background:#c00;color:#fff;}
+  .tlink-mcq{background:rgba(10,95,214,.15);color:#5b9dff;border:1px solid rgba(10,95,214,.3);}
+  .tlink-mcq:hover{background:var(--blue);color:#fff;}
+
+  /* ── TEACHER CARD ── */
+  .teacher-section{
+    background:linear-gradient(135deg,rgba(123,16,200,.2),rgba(10,95,214,.2));
+    border-radius:20px;padding:3rem 2rem;
+    border:1px solid rgba(255,255,255,.1);
+    display:grid;grid-template-columns:auto 1fr;gap:2.5rem;align-items:center;
+  }
+  .teacher-avatar{
+    width:140px;height:140px;border-radius:50%;
+    background:linear-gradient(135deg,var(--gold),var(--orange));
+    display:flex;align-items:center;justify-content:center;
+    font-size:3.5rem;font-weight:800;color:#000;
+    font-family:'Baloo 2',cursive;
+    box-shadow:0 0 40px rgba(255,215,0,.4);
+    flex-shrink:0;
+  }
+  .teacher-name{font-family:'Baloo 2',cursive;font-size:2rem;font-weight:800;color:var(--gold);margin-bottom:.3rem;}
+  .teacher-title{color:var(--muted);margin-bottom:1rem;font-size:.95rem;}
+  .teacher-bio{color:var(--text);line-height:1.8;font-size:.95rem;}
+  .teacher-chips{display:flex;gap:.7rem;flex-wrap:wrap;margin-top:1rem;}
+  .chip{
+    background:rgba(255,215,0,.12);color:var(--gold);
+    padding:.3rem .9rem;border-radius:20px;font-size:.8rem;font-weight:700;
+    border:1px solid rgba(255,215,0,.25);
+  }
+
+  /* ── WHY FREE ── */
+  .why-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:1.2rem;}
+  .why-card{
+    background:var(--card);border-radius:14px;padding:1.5rem;
+    border:1px solid rgba(255,255,255,.07);text-align:center;
+  }
+  .why-icon{font-size:2.4rem;margin-bottom:.8rem;}
+  .why-card h4{font-family:'Baloo 2',cursive;font-weight:800;color:#fff;margin-bottom:.4rem;}
+  .why-card p{font-size:.85rem;color:var(--muted);line-height:1.6;}
+
+  /* ── YOUTUBE CTA ── */
+  .yt-cta{
+    background:linear-gradient(135deg,#1a0000,#3d0000);
+    border-radius:20px;padding:2.5rem;text-align:center;
+    border:2px solid rgba(255,0,0,.3);
+    box-shadow:0 8px 40px rgba(200,0,0,.2);
+  }
+  .yt-icon{font-size:3.5rem;margin-bottom:1rem;}
+  .yt-cta h3{font-family:'Baloo 2',cursive;font-size:1.8rem;font-weight:800;color:#fff;margin-bottom:.5rem;}
+  .yt-cta p{color:rgba(255,255,255,.7);margin-bottom:1.5rem;}
+  .btn-yt{background:#FF0000;color:#fff;}
+  .btn-yt:hover{background:#cc0000;transform:translateY(-2px);box-shadow:0 8px 24px rgba(255,0,0,.4);}
+
+  /* ── FOOTER ── */
+  footer{
+    position:relative;z-index:1;
+    background:rgba(0,0,0,.6);border-top:1px solid rgba(255,215,0,.2);
+    padding:2.5rem 1.5rem;text-align:center;
+  }
+  footer .logo{font-family:'Baloo 2',cursive;font-size:1.5rem;font-weight:800;color:var(--gold);margin-bottom:.5rem;}
+  footer p{color:var(--muted);font-size:.88rem;margin-bottom:.3rem;}
+  footer .heart{color:#ff4757;}
+
+  /* ── FLOATING FREE BADGE ── */
+  .float-badge{
+    position:fixed;bottom:1.5rem;right:1.5rem;z-index:200;
+    background:var(--green);color:#fff;
+    width:70px;height:70px;border-radius:50%;
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    font-family:'Baloo 2',cursive;font-weight:800;font-size:.75rem;
+    box-shadow:0 4px 20px rgba(10,171,74,.5);
+    animation:float 3s ease-in-out infinite;
+    text-decoration:none;
+    text-align:center;line-height:1.2;
+  }
+  @keyframes float{0%,100%{transform:translateY(0);}50%{transform:translateY(-8px);}}
+
+  /* ── RESPONSIVE ── */
+  @media(max-width:700px){
+    .teacher-section{grid-template-columns:1fr;text-align:center;}
+    .teacher-chips{justify-content:center;}
+    nav{padding:.7rem 1rem;}
+    .nav-links{gap:.8rem;}
+  }
+</style>
+</head>
+<body>
+
+<!-- STARFIELD -->
+<div id="stars"></div>
+
+<!-- NAV -->
+<nav>
+  <div class="nav-logo">⭐ <span>Dewangan</span> Sir</div>
+  <ul class="nav-links">
+    <li><a href="#courses">Courses</a></li>
+    <li><a href="#topics">Topics</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="https://youtube.com" target="_blank" class="nav-free">▶ YouTube</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+  <div class="hero-badge">🇮🇳 100% FREE — No Registration. No Payment. Ever.</div>
+  <h1>
+    <span class="gold">KVS • NVS • EMRS</span><br/>
+    <span class="white">Principal & Vice Principal</span><br/>
+    <span class="gold">Exam Preparation</span>
+  </h1>
+  <p class="hero-sub">
+    Complete study material, PDFs, video lectures, MCQs & descriptive Q&A —
+    <strong>absolutely free</strong> for every aspirant across India.
+    <br/>Because education is a right, not a privilege.
+  </p>
+  <div class="hero-btns">
+    <a href="#courses" class="btn btn-primary">📚 Start Learning FREE</a>
+    <a href="#topics" class="btn btn-outline">📋 View All Topics</a>
+  </div>
+  <div class="hero-stats">
+    <div class="stat"><div class="stat-num">100%</div><div class="stat-lbl">Free Forever</div></div>
+    <div class="stat"><div class="stat-num">50+</div><div class="stat-lbl">Video Lectures</div></div>
+    <div class="stat"><div class="stat-num">3</div><div class="stat-lbl">Exams Covered</div></div>
+    <div class="stat"><div class="stat-num">∞</div><div class="stat-lbl">Aspirants Helped</div></div>
+  </div>
+</section>
+
+<!-- WHY FREE -->
+<section style="padding-top:0;">
+  <div class="section-inner">
+    <div class="free-banner">
+      <div class="icon">🎁</div>
+      <div>
+        <h3>Why is everything FREE here?</h3>
+        <p>Dewangan Sir believes that quality education should never have a price tag. While others charge for every PDF, every video, every test — this platform gives you everything for free. Because helping you succeed is the only goal.</p>
+      </div>
+    </div>
+    <div class="why-grid">
+      <div class="why-card">
+        <div class="why-icon">📄</div>
+        <h4>Free PDF Notes</h4>
+        <p>Comprehensive study notes for every topic — download anytime, no login needed.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🎬</div>
+        <h4>Free Video Lectures</h4>
+        <h4></h4>
+        <p>In-depth YouTube videos covering every syllabus topic with examples and exam tips.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">✅</div>
+        <h4>Free MCQ Tests</h4>
+        <p>Practice questions aligned with KVS, NVS, EMRS exam patterns — unlimited attempts.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">📝</div>
+        <h4>Free Descriptive Q&A</h4>
+        <p>Model answers for descriptive questions — exactly what you need for the interview round.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🏆</div>
+        <h4>LDCE + Direct Recruitment</h4>
+        <p>Covers all three rounds — Written Exam, Tier-2, and Personal Interview.</p>
+      </div>
+      <div class="why-card">
+        <div class="why-icon">🇮🇳</div>
+        <h4>Mission: Humanity First</h4>
+        <p>No paid courses. No subscriptions. Just pure dedication to helping teachers grow.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COURSES -->
+<section id="courses">
+  <div class="section-inner">
+    <div class="divider"></div>
+    <h2 class="section-title">Choose Your <span>Exam</span></h2>
+    <p class="section-sub">Select the exam you are preparing for — all content is 100% free</p>
+    <div class="courses-grid">
+      <a href="course.html?exam=kvs-principal" class="course-card" style="--accent:#FFD700;">
+        <div class="course-icon">🏫</div>
+        <h3>KVS Principal (Direct Recruitment)</h3>
+        <p>Complete syllabus coverage for KVS Principal Tier-1 & Tier-2 examination including all papers.</p>
+        <span class="course-tag free">✅ 100% FREE</span>
+      </a>
+      <a href="course.html?exam=kvs-vp" class="course-card" style="--accent:#0A5FD6;">
+        <div class="course-icon">🎓</div>
+        <h3>KVS Vice Principal (LDCE)</h3>
+        <p>Departmental exam preparation — Administration, Education, Finance & all relevant topics.</p>
+        <span class="course-tag free">✅ 100% FREE</span>
+      </a>
+      <a href="course.html?exam=nvs-principal" class="course-card" style="--accent:#7B10C8;">
+        <div class="course-icon">📚</div>
+        <h3>NVS Principal Exam</h3>
+        <p>Full preparation for Navodaya Vidyalaya Samiti Principal recruitment examination.</p>
+        <span class="course-tag free">✅ 100% FREE</span>
+      </a>
+      <a href="course.html?exam=emrs-principal" class="course-card" style="--accent:#0AAB4A;">
+        <div class="course-icon">🌟</div>
+        <h3>EMRS Principal Exam</h3>
+        <p>Eklavya Model Residential School Principal exam — tribal education & administration focus.</p>
+        <span class="course-tag free">✅ 100% FREE</span>
+      </a>
+      <a href="course.html?exam=interview" class="course-card" style="--accent:#FF6B00;">
+        <div class="course-icon">🎤</div>
+        <h3>Interview Preparation</h3>
+        <p>Probable interview questions, model answers, personality development & presentation skills.</p>
+        <span class="course-tag free">✅ 100% FREE</span>
+      </a>
+      <a href="course.html?exam=mcq" class="course-card" style="--accent:#E8200A;">
+        <div class="course-icon">✅</div>
+        <h3>MCQ Test Series</h3>
+        <p>Topic-wise and full-length mock tests — practice till you are perfect. No limit.</p>
+        <span class="course-tag free">✅ 100% FREE</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- TOPICS TABLE -->
+<section id="topics">
+  <div class="section-inner">
+    <div class="divider"></div>
+    <h2 class="section-title">Planning & Organization of <span>Teaching-Learning</span></h2>
+    <p class="section-sub">Perspective in Education — Part A, B & C | Complete Topic-wise Content</p>
+
+    <!-- PART A -->
+    <div class="topics-wrap" style="margin-bottom:1.5rem;">
+      <div class="topics-header" style="background:linear-gradient(135deg,#7B10C8,#0A5FD6);">
+        <span style="font-size:1.5rem;">📘</span>
+        <h3>PART A — Theory & Concepts</h3>
+      </div>
+      <div class="topic-row">
+        <div class="topic-num">1</div>
+        <div class="topic-info">
+          <h4>Concept of Syllabus & Curriculum | Overt & Hidden Curriculum</h4>
+          <p>Differences, nature, examples from school settings</p>
+        </div>
+        <div class="topic-links">
+          <a href="#" class="tlink tlink-pdf">📄 PDF</a>
+          <a href="#" class="tlink tlink-video">▶ Video</a>
+          <a href="#" class="tlink tlink-mcq">✅ MCQ</a>
+        </div>
+      </div>
+      <div class="topic-row">
+        <div class="topic-num">2</div>
+        <div class="topic-info">
+          <h4>Preparation of School Time-Table</h4>
+          <p>Principles of Fatigue, Variety, Justice, Elasticity, Efficiency</p>
+        </div>
+        <div class="topic-links">
+          <a href="#" class="tlink tlink-pdf">📄 PDF</a>
+          <a href="#" class="tlink tlink-video">▶ Video</a>
+          <a href="#" class="tlink tlink-mcq">✅ MCQ</a>
+        </div>
+      </div>
+      <div class="topic-row">
+        <div class="topic-num">3</div>
+        <div class="topic-info">
+          <h4>Foundational Literacy & Numeracy (FLN) & ECCE</h4>
+          <p>NIPUN Bharat Mission | NEP 2020 | Balvatika | 3 R's</p>
+        </div>
+        <div class="topic-links">
+          <a href="#" class="tlink tlink-pdf">📄 PDF</a>
+          <a href="#" class="tlink tlink-video">▶ Video</a>
+          <a href="#" class="tlink tlink-mcq">✅ MCQ</a>
+        </div>
+      </div>
+      <div class="topic-row">
+        <div class="topic-num">4</div>
+        <div class="topic-info">
+          <h4>Competency Based Lesson Planning</h4>
+          <p>Content-centric vs competency-centric | Learning Outcomes | Differentiation</p>
+        </div>
+        <div class="topic-links">
+          <a href="#" class="tlink tlink-pdf">📄 PDF</a>
+          <a href="#" class="tlink tlink-video">▶ Video</a>
+          <a href="#" class="tlink tlink-mcq">✅ MCQ</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PART B -->
+    <div class="topics-wrap" style="margin-bottom:1.5rem;">
+      <div class="topics-header" style="background:linear-gradient(135deg,#0AAB4A,#0A5FD6);">
+        <span style="font-size:1.5rem;">📗</span>
+        <h3>PART B — Assessment & Evaluation</h3>
+      </div>
+      <div class="topic-row">
+        <div class="topic-num">5</div>
+        <div class="topic-info">
+          <h4>Competency Based Assessment</h4>
+          <p>Criterion vs Norm Referenced | Rubrics | Portfolios | Holistic Evaluation | CCE</p>
+        </div>
+        <div class="topic-links">
+          <a href="#" class="tlink tlink-pdf">📄 PDF</a>
+          <a href="#" class="tlink tlink-video">▶ Video</a>
+          <a href="#" class="tlink tlink-mcq">✅ MCQ</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- PART C -->
+    <div class="topics-wrap">
+      <div class="topics-header" style="background:linear-gradient(135deg,#E8200A,#FF6B00);">
+        <span style="font-size:1.5rem;">📕</span>
+        <h3>PART C — Perspective in Education</h3>
+      </div>
+      <div class="topic-row">
+        <div class="topic-num">6</div>
+        <div class="topic-info">
+          <h4>Instructional Material & Resources</h4>
+          <p>Edgar Dale's Cone of Experience | TLM | Audio-Visual Aids | Resource Utilization</p>
+        </div>
+        <div class="topic-links">
+          <a href="#" class="tlink tlink-pdf">📄 PDF</a>
+          <a href="#" class="tlink tlink-video">▶ Video</a>
+          <a href="#" class="tlink tlink-mcq">✅ MCQ</a>
+        </div>
+      </div>
+      <div class="topic-row">
+        <div class="topic-num">7</div>
+        <div class="topic-info">
+          <h4>Digital Technology in Teaching-Learning</h4>
+          <p>ICT Integration | Smart Classes | DIKSHA | SWAYAM | NEP 2020 & Technology</p>
+        </div>
+        <div class="topic-links">
+          <a href="#" class="tlink tlink-pdf">📄 PDF</a>
+          <a href="#" class="tlink tlink-video">▶ Video</a>
+          <a href="#" class="tlink tlink-mcq">✅ MCQ</a>
+        </div>
+      </div>
+      <div class="topic-row">
+        <div class="topic-num">8</div>
+        <div class="topic-info">
+          <h4>Classroom Observation, Feedback & Follow-up</h4>
+          <p>Academic Supervision | Mentoring | Post-Observation Conference | Role of Principal</p>
+        </div>
+        <div class="topic-links">
+          <a href="#" class="tlink tlink-pdf">📄 PDF</a>
+          <a href="#" class="tlink tlink-video">▶ Video</a>
+          <a href="#" class="tlink tlink-mcq">✅ MCQ</a>
+        </div>
+      </div>
+      <div class="topic-row">
+        <div class="topic-num">9</div>
+        <div class="topic-info">
+          <h4>Reflections & Dialogues — Constructivist Teaching</h4>
+          <p>Vygotsky | ZPD | Socratic Method | Collaborative Learning | Inquiry-Based Pedagogy</p>
+        </div>
+        <div class="topic-links">
+          <a href="#" class="tlink tlink-pdf">📄 PDF</a>
+          <a href="#" class="tlink tlink-video">▶ Video</a>
+          <a href="#" class="tlink tlink-mcq">✅ MCQ</a>
+        </div>
+      </div>
+      <div class="topic-row">
+        <div class="topic-num">🎯</div>
+        <div class="topic-info">
+          <h4>MCQ Practice Session — Full Chapter</h4>
+          <p>100+ questions | Exam pattern | Detailed explanations</p>
+        </div>
+        <div class="topic-links">
+          <a href="#" class="tlink tlink-mcq">✅ Start MCQs</a>
+        </div>
+      </div>
+      <div class="topic-row">
+        <div class="topic-num">📝</div>
+        <div class="topic-info">
+          <h4>Descriptive Q&A Session — Full Chapter</h4>
+          <p>10-mark answers | Interview model answers | Examiner's perspective</p>
+        </div>
+        <div class="topic-links">
+          <a href="#" class="tlink tlink-pdf">📄 Download</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT DEWANGAN SIR -->
+<section id="about">
+  <div class="section-inner">
+    <div class="divider"></div>
+    <h2 class="section-title" style="margin-bottom:1.5rem;">Meet <span>Dewangan Sir</span></h2>
+    <div class="teacher-section">
+      <div class="teacher-avatar">DS</div>
+      <div>
+        <div class="teacher-name">⭐ DEWANGAN SIR</div>
+        <div class="teacher-title">Educator | Mentor | Principal Exam Expert | Mission: Free Education for All</div>
+        <p class="teacher-bio">
+          Dewangan Sir has dedicated his career to one mission — making quality Principal & Vice Principal exam preparation accessible to every teacher in India, regardless of their financial status. While many coaching platforms charge thousands of rupees for PDFs, videos, and tests, Dewangan Sir provides everything <strong>completely free of charge</strong>.
+          <br/><br/>
+          His viral YouTube lectures, comprehensive PDF notes, and structured MCQ sessions have helped thousands of KVS, NVS and EMRS teachers crack their promotion exams. This website is an extension of that mission — a free, open, always-available resource for every aspirant.
+        </p>
+        <div class="teacher-chips">
+          <span class="chip">KVS Expert</span>
+          <span class="chip">NVS Specialist</span>
+          <span class="chip">EMRS Guide</span>
+          <span class="chip">NEP 2020</span>
+          <span class="chip">100% Free</span>
+          <span class="chip">🇮🇳 For India</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- YOUTUBE CTA -->
+<section>
+  <div class="section-inner">
+    <div class="yt-cta">
+      <div class="yt-icon">▶️</div>
+      <h3>Watch FREE Lectures on YouTube</h3>
+      <p>New videos uploaded regularly. Subscribe so you never miss a lecture. Hit the bell icon 🔔</p>
+      <a href="https://youtube.com" target="_blank" class="btn btn-yt btn-primary">
+        🔴 Subscribe on YouTube — It's FREE!
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="logo">⭐ Dewangan Sir</div>
+  <p>FREE Principal & Vice Principal Exam Preparation | KVS • NVS • EMRS</p>
+  <p style="margin-top:.8rem;">Made with <span class="heart">❤️</span> for every teacher in India — because education is a right, not a privilege.</p>
+  <p style="margin-top:.5rem;font-size:.78rem;color:#555;">
+    LDCE | Direct Recruitment | Interview Preparation | 100% Free | No Registration Required
+  </p>
+</footer>
+
+<!-- FLOATING FREE BADGE -->
+<a href="#courses" class="float-badge">100%<br/>FREE!</a>
+
+<script>
+// Generate starfield
+const starsEl = document.getElementById('stars');
+for(let i=0;i<180;i++){
+  const s = document.createElement('div');
+  s.className='star';
+  const size = Math.random()*2.5+0.5;
+  s.style.cssText=`
+    width:${size}px;height:${size}px;
+    left:${Math.random()*100}%;top:${Math.random()*100}%;
+    --d:${2+Math.random()*4}s;
+    animation-delay:${Math.random()*4}s;
+    opacity:${Math.random()*.6+.2};
+  `;
+  starsEl.appendChild(s);
+}
+
+// Smooth reveal on scroll
+const observer = new IntersectionObserver((entries)=>{
+  entries.forEach(e=>{
+    if(e.isIntersecting){
+      e.target.style.opacity='1';
+      e.target.style.transform='translateY(0)';
+    }
+  });
+},{threshold:.1});
+
+document.querySelectorAll('.course-card,.why-card,.topic-row').forEach(el=>{
+  el.style.opacity='0';
+  el.style.transform='translateY(20px)';
+  el.style.transition='opacity .5s ease, transform .5s ease';
+  observer.observe(el);
+});
+</script>
+</body>
+</html>
